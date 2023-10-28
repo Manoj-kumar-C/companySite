@@ -21,7 +21,7 @@ const HeroArea = () => {
 
     return (
          <>
-            <section className="slider-area fix">
+            <section className="slider-area fix" data-aos="fade-up">
                 <div className="shape-slider"> 
                     <Image className="shape shape-1" src={hero_shape_1} alt="theme-pure" />
                     <Image className="shape shape-2" src={hero_shape_2} alt="theme-pure" />

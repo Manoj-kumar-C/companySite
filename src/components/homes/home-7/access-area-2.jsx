@@ -15,7 +15,7 @@ const {title, sm_des} = access_2_content
 const AccessAreaTwo = () => {
     return (
         <>
-           <section className="access-area pos-relative fix">
+           <section className="access-area pos-relative fix" data-aos="fade-up">
                 <div className="shape-section">
                     <Image className="shape shape-sf " src={access_shape} alt="theme-pure" />
                 </div>

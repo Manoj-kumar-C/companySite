@@ -65,7 +65,7 @@ const pricing_data = [
 const PriceAreaHomeSeven = ({style_price}) => {
     return (
         <>
-            <section className={`price-area pos-relative ${style_price ? "" : "pt-150"} pb-120`}>
+            <section className={`price-area pos-relative ${style_price ? "" : "pt-150"} pb-120`} data-aos="fade-up">
                 <div className="shape-section">
                     <img className="shape shape-p " src="assets/img/shape/shape-f-1.png" alt="theme-pure" />
                 </div>

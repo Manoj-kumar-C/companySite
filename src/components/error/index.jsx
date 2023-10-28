@@ -7,7 +7,7 @@ import Footer from "@/src/layout/footers/footer";
 const Error = () => {
   return (
     <>
-      <HeaderTwo />
+      <HeaderThree />
       <main>
         <Breadcrumb top_title="404 Error Page"  title="404 Error"/>
         <ErrorArea />

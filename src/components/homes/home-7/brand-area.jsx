@@ -4,7 +4,7 @@ import InnerBrandArea from './../../common/inner-brand-area';
 const BrandArea = () => {
     return (
         <>
-           <section className="brand-area pos-relative pb-150">
+           <section className="brand-area pos-relative pb-150" data-aos="fade-up">
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-12">

@@ -29,7 +29,7 @@ const feature_data = [
 const FeatureArea = () => {
     return (
         <>
-           <section className="how-work-area pos-relative pt-150 pb-120">
+           <section className="how-work-area pos-relative pt-150 pb-120" data-aos="fade-up">
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-6 offset-xl-3">

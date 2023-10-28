@@ -5,11 +5,12 @@ import ServiceArea from "../homes/home-5/service-area";
 import TestimonialArea from "../homes/home-5/testimonial-area";
 import BrandArea from "./brand-area";
 import Footer from "@/src/layout/footers/footer";
+import HeaderThree from "@/src/layout/headers/header-3";
 
 const About = () => {
   return (
     <>
-      <HeaderTwo />
+      <HeaderThree />
       <main>
         <Breadcrumb top_title="About Style 01" title="About" />
         <AboutUs /> 

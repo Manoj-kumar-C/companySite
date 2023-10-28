@@ -5,7 +5,7 @@ import shape from "@assets/img/shape/shape5.png";
 const NewsletterArea = () => {
     return (
         <>
-           <section className="newsletter-area pos-relative pb-100">
+           <section className="newsletter-area pos-relative pb-100" data-aos="fade-up">
                 <div className="shape-section">
                     <Image className="shape shape-sr " src={shape} alt="theme-pure" />
                 </div>

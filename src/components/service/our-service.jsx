@@ -36,34 +36,7 @@ const OurService = () => {
                     <Image className="shape shape-s-1" src={service_shape_1} alt="theme-pure" />
                     <Image className="shape shape-s-2" src={service_shape_2} alt="theme-pure" />
                 </div>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-xl-6 offset-xl-3">
-                            <div className="section-title-4 text-center mb-70">
-                                <h2>How It Works</h2>
-                                <p>Gathered was to yielding god heaven lights about void thing.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row">
-                        {service_data.map((item, i) => 
-                            <div key={i} className="col-xl-4 col-lg-4">
-                                <div className="how-work how-work-rd mb-30">
-                                    <div className="how-work-icon">
-                                        <Image src={item.img} alt="theme-pure" />
-                                    </div>
-                                    <div className="how-work-text">
-                                        <h3>{item.title}</h3>
-                                        <p>{item.sm_des}</p>
-                                    </div>
-                                    <div className="how-work-link">
-                                        <Link href="/service-details">Read more</Link>
-                                    </div>
-                                </div>
-                            </div>                        
-                        )} 
-                    </div>
-                </div>
+                
             </section>
         </>
     );

@@ -32,7 +32,7 @@ const service_data = [
 const ServiceArea = ({style_fancy}) => {
     return (
         <>
-            <section className={`how-work-area pos-relative ${style_fancy ? "" : "pt-150"} pb-120`}>
+            <section className={`how-work-area pos-relative ${style_fancy ? "" : "pt-150"} pb-120`} data-aos="fade-up">
                 <div className="shape-section">
                     <Image className="shape shape-s-1" src={service_shape_1} alt="theme-pure" />
                     <Image className="shape shape-s-2" src={service_shape_2} alt="theme-pure" />
@@ -49,22 +49,22 @@ const ServiceArea = ({style_fancy}) => {
                         </div>                    
                     }
                     <div className="row">   
-                    {service_data.map((item, i) => 
-                        <div key={i} className="col-xl-4 col-lg-4">
-                            <div className="how-work mb-30">
-                                <div className="how-work-icon">
-                                    <Image src={item.icon} alt="theme-pure" />
-                                </div>
-                                <div className="how-work-text">
-                                    <h3>{item.title}</h3>
-                                    <p>{item.sm_des}</p>
-                                </div>
-                                <div className="how-work-link">
-                                    <Link href="/service-details">Read more</Link>
-                                </div>
-                            </div>
-                        </div>                    
-                    )}
+                    {service_data.map((item, i) => (
+    <div key={i} className="col-xl-4 col-lg-4">
+      <div className="how-work mb-30" style={{ borderRadius: '20px' }}>
+        <div className="how-work-icon">
+          <Image src={item.icon} alt="theme-pure" />
+        </div>
+        <div className="how-work-text">
+          <h3>{item.title}</h3>
+          <p>{item.sm_des}</p>
+        </div>
+        <div className="how-work-link">
+          <Link href="/service-details">Read more</Link>
+        </div>
+      </div>
+    </div>
+  ))}
                     </div>
                 </div>
             </section>

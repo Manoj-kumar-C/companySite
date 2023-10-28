@@ -12,7 +12,10 @@ if (typeof window !== "undefined") {
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
-    AOS.init();
+    AOS.init({
+      duration: 800,
+      once: false,
+    });
   }, [])
 
   return( 
