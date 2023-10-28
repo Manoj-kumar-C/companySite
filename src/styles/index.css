@@ -1,0 +1,20 @@
+@import "~bootstrap/dist/css/bootstrap";
+@import "slick-carousel/slick/slick.css";
+@import "node_modules/react-modal-video/css/modal-video.css";  
+@import 'react-18-image-lightbox/style.css';
+
+@import "@assets/css/animate-old.css";
+@import "@assets/css/animate.min.css";
+@import "@assets/css/aos.css";
+@import "@assets/css/coming.css";
+@import "@assets/css/custom-animation.css";
+@import "@assets/css/default.css";
+@import "@assets/css/fontawesome-all.min.css";
+@import "@assets/css/themify-icons.css";
+@import "@assets/css/meanmenu.css";
+@import "@assets/css/demo.css";
+@import "@assets/css/style.css";  
+@import "@assets/css/responsive.css";
+
+@import 'react-toastify/dist/ReactToastify.css';
+
